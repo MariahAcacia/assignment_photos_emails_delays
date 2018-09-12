@@ -37,6 +37,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'paperclip'
 gem 'figaro'
+gem 'aws-sdk' # s3 storage 
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

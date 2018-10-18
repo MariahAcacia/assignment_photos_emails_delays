@@ -26,5 +26,5 @@
 # Ignore precompilied assets
 public/assets
 
-# .env file for Foreman
+# .env file for Foreman/Heroku vars
 /.env

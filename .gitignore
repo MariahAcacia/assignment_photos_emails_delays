@@ -22,3 +22,9 @@
 
 # Ignore application configuration
 /config/application.yml
+
+# Ignore precompilied assets
+public/assets
+
+# .env file for Foreman
+/.env

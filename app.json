@@ -1,7 +1,7 @@
 {
   "name": "Assignment Photos, Emails, and, Delayed Jobs",
   "description": "A super simple user app to practice uploading photos, sending emails and setting up delayed jobs",
-  "website": "https://serene-dawn-74512.herokuapp.com/",
+  "website": "https://shrouded-reef-27870.herokuapp.com/",
   "repository": "https://github.com/MariahAcacia/assignment_photos_emails_delays",
   "scripts": {
     "postdeploy": "bundle exec rake db:migrate"

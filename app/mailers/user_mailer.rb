@@ -1,6 +1,6 @@
 class UserMailer < ApplicationMailer
 
-  default :from => "host@website.com"
+  default :from => "app112440190@heroku.com"
 
   def welcome(user)
     @user = user

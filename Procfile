@@ -1,2 +1,2 @@
 web: bundle exec rails s -p $PORT -e $RACK_ENV
-worker: rake jobs:workoff
+worker: bin/delayed_job start

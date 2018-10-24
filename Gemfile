@@ -40,6 +40,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'paperclip'
 gem 'figaro'
 gem 'aws-sdk', '~> 2.3' # s3 storage
+gem 'delayed_job_active_record'
+gem "daemons"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -59,7 +61,6 @@ group :development do
   gem 'bullet'
   gem 'hirb'
   gem 'letter_opener', '~> 1.4', '>= 1.4.1'
-  gem 'delayed_job_active_record'
 end
 
 group :production do

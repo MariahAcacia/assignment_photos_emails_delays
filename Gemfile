@@ -41,7 +41,6 @@ gem 'paperclip'
 gem 'figaro'
 gem 'aws-sdk', '~> 2.3' # s3 storage
 gem 'delayed_job_active_record'
-gem "daemons"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
